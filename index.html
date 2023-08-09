@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes App</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media only screen and (min-width:300px) and (max-width:900px) {
+            #btn {
+                padding: 5px 10px;
+                margin-top: 2px;
+                width: 43%;
+            }
+
+            #quotes {
+                font-size: 1.0rem;
+            }
+
+            #author {
+                align-self: self-end;
+                margin-top: 1px;
+                font-size: 1.0rem;
+                align-self: self-end;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div id="quotes"></div>
+            <div id="author"></div>
+            <button id="btn">New Quotes</button>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
